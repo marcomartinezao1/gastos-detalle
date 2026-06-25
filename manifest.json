@@ -1,0 +1,15 @@
+{
+  "name": "Registro de Gastos – DETALLE",
+  "short_name": "Gastos",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f6e4f",
+  "theme_color": "#0f6e4f",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%230f6e4f'/%3E%3Ctext x='256' y='340' font-size='300' text-anchor='middle' fill='white' font-family='Arial'%3E%24%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
