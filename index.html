@@ -94,7 +94,7 @@
 
 <script>
 // ===================== CONFIG (se completa en el registro de Azure) =====================
-const CLIENT_ID = "__CLIENT_ID__";          // <-- ID de aplicación (Azure)
+const CLIENT_ID = "4ea3f650-5e83-444c-97bb-cf92116fb929";          // <-- ID de aplicación (Azure)
 const FILE_PATH = "/LEPABI/GASTOS.xlsx";      // ruta dentro de tu OneDrive
 const TABLE     = "Table1";                    // tabla de la hoja DETALLE
 // =======================================================================================
@@ -117,7 +117,7 @@ const msalConfig = {
   auth: {
     clientId: CLIENT_ID,
     authority: "https://login.microsoftonline.com/consumers",
-    redirectUri: window.location.origin + window.location.pathname
+    redirectUri: "https://marcomartinezao1.github.io/gastos-detalle/"
   },
   cache: { cacheLocation: "localStorage" }
 };
